@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.noober.background.view.BLLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="2dp"
+    app:bl_corners_radius="4dp"
+    app:bl_solid_color="#FF313133">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:src="@drawable/ic_edit_pause_label" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:text="1.5s"
+        android:textColor="#FF2FFF76"
+        android:textSize="12dp" />
+</com.noober.background.view.BLLinearLayout>
