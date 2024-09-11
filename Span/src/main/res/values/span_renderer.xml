@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="span_background_renderer" type="id" />
+    <item name="span_foreground_renderer" type="id" />
+</resources>
